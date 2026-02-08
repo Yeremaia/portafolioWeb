@@ -1,0 +1,108 @@
+{
+  "menu.about": "About me",
+  "menu.projects": "My projects",
+  "menu.contact": "Contact",
+
+
+  "main.description": "I am a Web and Software Developer passionate about continuous learning.",
+  "main.buscar-trabajo": "Seeking job opportunities",
+  "main.buscar-estudios": "Seeking new educational experiences",
+  "main.ver-cv": "View CV",
+  "main.contactame": "Contact me",
+
+  "title.sobre-mi": "About me",
+  "sobre-mi.descripcion-1": "I am a web and software developer in training, with knowledge of JavaScript, TypeScript, React, Node.js, SQL, Python, Django, Flask, HTML, and CSS.",
+  "sobre-mi.descripcion-2": "Currently, I am strengthening my frontend and backend development skills while working on personal and academic projects that allow me to improve my technical and practical abilities.",
+  "sobre-mi.descripcion-3": "I consider myself a sincere, creative, responsible person committed to continuous learning, always seeking to grow in the field of programming and technology. My goal is to become a professional full-stack developer.",
+
+  "title.destacado": "Featured projects",
+  "destacado.proyecto-1": "English-language blog-style web application that allows users to explore posts, create and manage reviews, comment on content, and save favorites.",
+  "destacado.ver-detalles": "View more details",
+
+  "title.academico": "Academic projects",
+  "academico-proyecto-1": "Online skincare store that allows users to place orders quickly and manage the catalog through product creation, editing, and deletion features for authorized users.",
+  "academico-proyecto-2": "Website of a fictional school with a login system, where students, teachers, and administrators access specific features such as academic management, admissions, grades, attendance, and the administration of users and courses.",
+
+  "title.practica": "Practice projects",
+  "practica.calculadora": "Calculator",
+  "calculadora.descripcion": "Web calculator developed with React that allows users to perform basic mathematical operations, featuring a simple interface and efficient state management.",
+  "boton.ver-demo": "View demo",
+  "boton.ver-code": "View code",
+  "practica.contador": "Click counter",
+  "contador.descripcion": "Basic click counter developed with React that increments the value each time the user presses a button.",
+  "practica.sitio": "Simple website",
+  "sitio.descripcion": "Simple website using HTML and CSS Grid",
+
+  "title.formacion": "Academic education and certifications",
+  "formacion.curso-1": "Website development – 2023",
+  "formacion.tipo-1": "Technical degree",
+  "formacion.descripcion-1": "Course focused on the creation of websites (HTML, CSS, JavaScript, SQL, PHP)",
+  "formacion.link": "View certificate online",
+
+  "formacion.curso-2": "Software design and development – 2024",
+  "formacion.descripcion-2": "Course focused on software development (Python, Django, CSS, HTML, SQL, Node.js, Flask, JavaScript, UI & UX)",
+
+  "formacion.curso-3": "Fundamentals of critical thinking – 2024",
+  "formacion.descripcion-3": "Course focused on strengthening logical and objective analytical skills.",
+
+  "formacion.curso-4": "Artificial intelligence for everyone – 2024",
+  "formacion.descripcion-4": "Course focused on the practical use of AI tools.",
+
+  "formacion.curso-5": "Software development",
+  "formacion.en-proceso": "(In progress)",
+  "formacion.descripcion-5": "Software development, web technologies, and project management.",
+
+  "formacion.tipo-2": "Training program",
+  "formacion.descripcion-6": "Full Stack training: React, Node.js, Express, and REST APIs.",
+
+  "icon.html": "HTML icon",
+  "icon.css": "CSS icon",
+  "icon.js": "JavaScript icon",
+  "icon.nodejs": "Node.js icon",
+  "icon.mysql": "MySQL icon",
+  "icon.react": "React icon",
+  "icon.tailwind": "Tailwind icon",
+  "icon.django": "Django icon",
+  "icon.php": "PHP icon",
+
+  "title.footer": "Contact",
+  "footer.descripcion": "If you are interested in collaborating or have any questions, you can write to me.",
+
+
+  "bloggox.titulo-inicio": "Featured project",
+  "bloggox.demostracion": "Project demonstration to showcase technical skills.",
+  "bloggox.titulo-descripcion": "Description",
+  "bloggox.descripcion": "Bloggox is a blogging software that allows users to create, edit, and delete their own posts, as well as explore content created by others. It also offers the ability to view information about other users and discover different types of posts on the platform.",
+  "bloggox.galeria": "Gallery",
+  "bloggox.stack-tecnologico": "Technology stack",
+  "bloggox.lista-db": "Database",
+  "bloggox.herramientas": "Tools and utilities",
+  "bloggox.responsabilidades": "Responsibilities",
+  "bloggox.lista-responsabilidad-1": "Comprehensive software development, covering interface design, frontend and backend implementation, database management, and the integration of external services.",
+  "bloggox.lista-responsabilidad-2": "UI/UX design and prototyping in Figma",
+  "bloggox.lista-responsabilidad-3": "Frontend development with React, Vite, HTML, CSS, and Tailwind.",
+  "bloggox.lista-responsabilidad-4": "API consumption and HTTP request management using Fetch and Axios.",
+  "bloggox.lista-responsabilidad-5": "Backend implementation with Node.js and connection to MySQL via XAMPP.",
+  "bloggox.titulo-ver": "View project",
+  "bloggox.footer": "Created by",
+
+
+  "titulo-colegio": "Academic project",
+  "colegio.descripcion-1": "Web platform developed for the management of a fictional academic school, created by Miguel Nehemias García, Ismanol José Gómez, Joshua Soto Familia, and Yeremy Peralta Báez. The system includes an authentication module that allows access to different functionalities according to the user’s role.",
+  "colegio.descripcion-2": "The site offers informational sections where visitors can learn about the general content of the institution, including academic activities, admission requirements by educational level, and a form to request enrollment, as well as a contact section for inquiries and suggestions.",
+  "colegio-responsabilidad-1": "Development of system functionalities using HTML, CSS, and JavaScript, contributing to the proper implementation of the interface and user experience.",
+  "colegio-responsabilidad-2": "Implementation of server-side logic with PHP, ensuring proper communication between the frontend and the database.",
+  "colegio-responsabilidad-3": "Design and management of the database in MySQL, including the creation of tables, relationships, and queries required for the system to function.",
+  "colegio-responsabilidad-4": "Completion of assigned tasks within the development team, maintaining good coding practices and organization.",
+  "colegio-responsabilidad-5": "Technical support to team members once assigned responsibilities are completed, collaborating in error resolution and system improvements.",
+  "colegio-responsabilidad-6": "Active collaboration in the development process, providing solutions and suggestions to optimize software performance.",
+
+
+  "skingarden-descripcion": "Online store software specialized in skincare products, allowing users to place orders quickly and efficiently. The platform includes product management features, such as adding, editing, and deleting items, available to users with an employee role, ensuring organized catalog management.",
+  "skingarden-responsabilidad-1": "Leadership and coordination of a development team composed of three members.",
+  "skingarden-responsabilidad-2": "Planning, task assignment, and supervision to ensure the achievement of project objectives.",
+  "skingarden-responsabilidad-3": "Time management and schedule tracking to ensure efficient and organized software development.",
+  "skingarden-responsabilidad-4": "Comprehensive application development, including frontend (HTML, CSS, JavaScript), backend with Django, and MySQL database design.",
+  "skingarden-responsabilidad-5": "Continuous technical support to team members and issue resolution during the development process.",
+  "skingarden-responsabilidad-6": "Creation of sketches and initial user interface design using Figma."
+}

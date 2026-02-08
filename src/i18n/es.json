@@ -1,0 +1,106 @@
+{
+  "menu.about": "Sobre mí",
+  "menu.projects": "Mis proyectos",
+  "menu.contact": "Contacto",
+
+  "main.description": "Soy un Desarrollador Web y de Software, apasionado por el aprendizaje continuo.",
+  "main.buscar-trabajo": "En busca de oportunidades laborales",
+  "main.buscar-estudios": "En busca de nuevas experiencias educativas",
+  "main.ver-cv": "Ver curriculum",
+  "main.contactame": "Contáctame",
+
+  "title.sobre-mi": "Sobre mí", 
+  "sobre-mi.descripcion-1": "Soy un desarrollador web y de software en formación, con conocimientos en JavaScript, TypeScript, React, Node.js, SQL, Python, Django, Flask, HTML y CSS.",
+  "sobre-mi.descripcion-2": "Actualmente, estoy fortaleciendo mis habilidades en desarrollo frontend y backend, mientras trabajo en proyectos personales y académicos que me permiten mejorar mis capacidades técnicas y prácticas.",
+  "sobre-mi.descripcion-3": "Me considero una persona sincera, creativa, responsable y comprometida con el aprendizaje continuo, siempre buscando crecer en el área de la programación y la tecnología. Mi objetivo es convertirme en un desarrollador full-stack profesional.",
+
+  "title.destacado": "Proyectos destacados",
+  "destacado.proyecto-1": "Aplicación web en inglés, tipo blog, que permite explorar publicaciones, crear y gestionar reseñas, comentar contenido y guardar favoritos.",
+  "destacado.ver-detalles": "Ver más detalles",
+
+  "title.academico": "Proyectos académicos",
+  "academico-proyecto-1": "Tienda online de productos de skincare que permite realizar pedidos de forma rápida y gestionar el catálogo mediante funciones de creación, edición y eliminación de productos para usuarios autorizados.",
+  "academico-proyecto-2": "Sitio web de una escuela ficticia con sistema de inicio de sesión, donde estudiantes, docentes y administradores acceden a funciones específicas como gestión académica, admisiones, calificaciones, asistencias y administración de usuarios y cursos.",
+
+  "title.practica": "Proyectos de práctica",
+  "practica.calculadora": "Calculadora",
+  "calculadora.descripcion": "Calculadora web desarrollada con React que permite realizar operaciones matemáticas básicas, con una interfaz sencilla y una gestión eficiente del estado.",
+  "boton.ver-demo": "Ver demo",
+  "boton.ver-code": "Ver código",
+  "practica.contador": "Contador de clics",
+  "contador.descripcion": "Contador de clics básico desarrollado en React que incrementa el valor cada vez que el usuario presiona un botón.",
+  "practica.sitio": "Sitio web simple",
+  "sitio.descripcion": "Sitio web simple utilizando HTML y CSS Grid",
+
+  "title.formacion": "Formación académica y certificaciones",
+  "formacion.curso-1": "Programación de sitios web – 2023",
+  "formacion.tipo-1": "Carrera técnica",
+  "formacion.descripcion-1": "Curso enfocado en la creación de sitios web (HTML, CSS, JavaScript, SQL, PHP)",
+  "formacion.link": "Ver certificado en línea",
+
+  "formacion.curso-2": "Diseño y creación de software – 2024",
+  "formacion.descripcion-2": "Curso enfocado en la creación de software (Python, Django, CSS, HTML, SQL, Node.js, Flask, JavaScript, UI & UX)",
+
+  "formacion.curso-3": "Fundamentos de pensamiento crítico – 2024",
+  "formacion.descripcion-3": "Curso enfocado en fortalecer la capacidad de análisis lógico y objetivo.",
+
+  "formacion.curso-4": "Inteligencia artificial para todos – 2024",
+  "formacion.descripcion-4": "Curso enfocado en el uso práctico de herramientas de IA.",
+
+  "formacion.curso-5": "Desarrollo de software",
+  "formacion.en-proceso": "(En proceso)",
+  "formacion.descripcion-5": "Desarrollo de software, tecnologías web y gestión de proyectos.",
+
+  "formacion.tipo-2": "Programa de formación",
+  "formacion.descripcion-6": "Formación Full Stack: React, Node.js, Express y APIs REST.",
+
+  "icon.html": "Icono de HTML",
+  "icon.css": "Icono de CSS",
+  "icon.js": "Icono de JavaScript",
+  "icon.nodejs": "Icono de Node.js",
+  "icon.mysql": "Icono de MySQL",
+  "icon.react": "Icono de React",
+  "icon.tailwind": "Icono de Tailwind",
+  "icon.django": "Icono de Django",
+  "icon.php": "Icono de PHP",
+
+  "title.footer": "Contacto",
+  "footer.descripcion": "Si te interesa colaborar o tienes alguna pregunta, puedes escribirme.",
+
+
+  "bloggox.titulo-inicio": "Proyecto Destacado",
+  "bloggox.demostracion": "Demostracion del proyecto para mostrar capacidades técnicas.",
+  "bloggox.titulo-descripcion": "Descripción",
+  "bloggox.descripcion": "Bloggox es un software de blogs que permite a los usuarios crear, editar y eliminar sus propias publicaciones, así como explorar el contenido creado por otros. También ofrece la posibilidad de ver la información de otros usuarios y descubrir diferentes tipos de publicaciones en la plataforma.",
+  "bloggox.galeria": "Galería",
+  "bloggox.stack-tecnologico": "Stack tecnológico",
+  "bloggox.lista-db": "Base de datos",
+  "bloggox.herramientas": "Herramientas y utilidades",
+  "bloggox.responsabilidades": "Responsabilidades",
+  "bloggox.lista-responsabilidad-1": "Desarrollo integral del software, abarcando el diseño de la interfaz, la implementación del frontend y backend, la gestión de la base de datos y la integración de servicios externos.",
+  "bloggox.lista-responsabilidad-2": "Diseño y prototipado UI/UX en Figma",
+  "bloggox.lista-responsabilidad-3": "Desarrollo del frontend con React, Vite, HTML, CSS y Tailwind.",
+  "bloggox.lista-responsabilidad-4": "Consumo de APIs y gestión de solicitudes HTTP mediante Fetch y Axios.",
+  "bloggox.lista-responsabilidad-5": "Implementación del backend con Node.js y conexión a MySQL mediante XAMPP.",
+  "bloggox.titulo-ver": "Ver proyecto",
+  "bloggox.footer": "Creado por",
+
+  "titulo-colegio": "Proyecto Academico",
+  "colegio.descripcion-1": "Plataforma web desarrollada para la gestión de una escuela académica ficticia, creada por Miguel Nehemias García, Ismanol José Gómez, Joshua Soto Familia y Yeremy Peralta Báez. El sistema cuenta con un módulo de autenticación que permite el acceso a diferentes funcionalidades según el rol del usuario.",
+  "colegio.descripcion-2": "El sitio ofrece secciones informativas donde los visitantes pueden conocer el contenido general de la institución, incluyendo las actividades académicas, los requisitos de admisión por nivel educativo y un formulario para solicitar el ingreso, así como un apartado de contacto para consultas y sugerencias.",
+  "colegio-responsabilidad-1": "Desarrollo de funcionalidades del sistema utilizando HTML, CSS y JavaScript, contribuyendo a la correcta implementación de la interfaz y la experiencia del usuario.",
+  "colegio-responsabilidad-2": "Implementación de la lógica del lado del servidor con PHP, asegurando la correcta comunicación entre el frontend y la base de datos.",
+  "colegio-responsabilidad-3": "Diseño y gestión de la base de datos en MySQL, incluyendo la creación de tablas, relaciones y consultas necesarias para el funcionamiento del sistema.",
+  "colegio-responsabilidad-4": "Cumplimiento de las tareas asignadas dentro del equipo de desarrollo, manteniendo buenas prácticas de código y organización.",
+  "colegio-responsabilidad-5": "Apoyo técnico a los compañeros del equipo una vez finalizadas las responsabilidades asignadas, colaborando en la resolución de errores y en las mejoras del sistema.",
+  "colegio-responsabilidad-6": "Colaboración activa en el proceso de desarrollo, aportando soluciones y sugerencias para optimizar el funcionamiento del software.",
+
+
+  "skingarden-descripcion": "Software de tienda online especializado en productos de cuidado de la piel, que permite a los usuarios realizar pedidos de manera rápida y eficiente. La plataforma incluye funcionalidades de gestión de productos, como agregar, editar y eliminar artículos, disponibles para usuarios con rol de empleado, garantizando un manejo organizado del catálogo.",
+  "skingarden-responsabilidad-1": "Liderazgo y coordinación de un equipo de desarrollo conformado por tres integrantes.",
+  "skingarden-responsabilidad-2": "Planificación, asignación y supervisión de tareas para garantizar el cumplimiento de los objetivos del proyecto.",
+  "skingarden-responsabilidad-3": "Gestión del tiempo y seguimiento del cronograma para asegurar un desarrollo eficiente y ordenado del software.",
+  "skingarden-responsabilidad-4": "Desarrollo integral de la aplicación, incluyendo frontend (HTML, CSS, JavaScript), backend con Django y diseño de la base de datos MySQL.",
+  "skingarden-responsabilidad-5": "Apoyo técnico continuo a los integrantes del equipo y resolución de incidencias durante el proceso de desarrollo.",
+  "skingarden-responsabilidad-6": "Creación de bocetos y diseño inicial de la interfaz de usuario mediante Figma."
+}
