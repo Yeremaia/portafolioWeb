@@ -25,9 +25,9 @@ function Menu({ toggleTheme, theme }) {
     <div className="contenedor-todo">
       <header>
         <ul className="menu-contenido">
-          <li><a href="#/ir-sobre-mi">{t("menu.about")}</a></li>
-          <li><a href="#/ir-mis-proyectos">{t("menu.projects")}</a></li>
-          <li><a href="#/ir-contacto">{t("menu.contact")}</a></li>
+          <li><a href="ir-sobre-mi">{t("menu.about")}</a></li>
+          <li><a href="ir-mis-proyectos">{t("menu.projects")}</a></li>
+          <li><a href="ir-contacto">{t("menu.contact")}</a></li>
 
           {/* BOTÓN IDIOMA */}
           <li
