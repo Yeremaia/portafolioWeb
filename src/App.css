@@ -86,23 +86,27 @@ header {
   padding: 0;
 }
 
-.menu-contenido li a {
+/* Estilo unificado para enlaces y botones del menú */
+.menu-contenido li a,
+.menu-contenido li button {
   padding: 10px 10px;
   border-radius: 10px;
   border: 1px solid #ccc;
   font-weight: bold;
   font-size: 14px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.menu-contenido li button {
-  display: flex;
-  padding: 10px 10px;
-  border-radius: 10px;
-  cursor: pointer;
-  border: 1px solid hsl(0, 0%, 80%);
-  font-size: 14px;
-  background-color: transparent;
+.menu-contenido li button:hover,
+.menu-contenido li a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
+
 
 #boton-idioma {
   font-weight: bold;
@@ -851,8 +855,8 @@ footer ul li a svg {
 
 /* ========================= DARK MODE ========================== */
 
-.dark #boton-idioma button,
-.dark .menu-contenido li a {
+.dark .menu-contenido li a,
+.dark .menu-contenido li button {
   color: #fff;
 }
 

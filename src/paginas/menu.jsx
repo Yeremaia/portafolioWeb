@@ -14,6 +14,14 @@ function Menu({ toggleTheme, theme }) {
     setAbrirIdioma(false);
   };
 
+  // SCROLL SUAVE
+  const irASeccion = (id) => {
+    const elemento = document.getElementById(id);
+    if (elemento) {
+      elemento.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const idiomaActual = {
     es: "Español",
     en: "English",
@@ -25,9 +33,21 @@ function Menu({ toggleTheme, theme }) {
     <div className="contenedor-todo">
       <header>
         <ul className="menu-contenido">
-          <li><a href="/#ir-sobre-mi">{t("menu.about")}</a></li>
-          <li><a href="/#ir-mis-proyectos">{t("menu.projects")}</a></li>
-          <li><a href="/#ir-contacto">{t("menu.contact")}</a></li>
+          <li>
+            <button onClick={() => irASeccion("ir-sobre-mi")}>
+              {t("menu.about")}
+            </button>
+          </li>
+          <li>
+            <button onClick={() => irASeccion("ir-mis-proyectos")}>
+              {t("menu.projects")}
+            </button>
+          </li>
+          <li>
+            <button onClick={() => irASeccion("ir-contacto")}>
+              {t("menu.contact")}
+            </button>
+          </li>
 
           {/* BOTÓN IDIOMA */}
           <li
