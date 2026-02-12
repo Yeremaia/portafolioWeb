@@ -32,6 +32,8 @@
   "contador.descripcion": "Basic click counter developed with React that increments the value each time the user presses a button.",
   "practica.sitio": "Simple website",
   "sitio.descripcion": "Simple website using HTML and CSS Grid",
+  "practica-piedra-papel": "Rock, Paper, Scissors",
+  "piedra-papel-descripcion": "Website in the form of a rock, paper, scissors game against a bot, including login and account creation.",
 
   "title.formacion": "Academic education and certifications",
   "formacion.curso-1": "Website development – 2023",

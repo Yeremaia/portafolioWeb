@@ -31,6 +31,8 @@
   "contador.descripcion": "Contador de cliques básico desenvolvido em React que incrementa o valor cada vez que o usuário pressiona um botão.",
   "practica.sitio": "Site simples",
   "sitio.descripcion": "Site simples utilizando HTML e CSS Grid",
+  "practica-piedra-papel": "Pedra, papel e tesoura",
+  "piedra-papel-descripcion": "Site em formato de jogo pedra, papel e tesoura contra um bot, incluindo login e criação de conta.",
 
   "title.formacion": "Formação acadêmica e certificações",
   "formacion.curso-1": "Programação de sites – 2023",

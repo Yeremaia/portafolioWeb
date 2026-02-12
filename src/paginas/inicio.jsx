@@ -254,6 +254,21 @@ function Inicio() {
                 {/* Cuarto titulo */}
                 <h2>{t("title.practica")} <FaFileCode /></h2>
                 <div className="conjunto-proyecto-practica">
+                    {/* Primer proyecto de practica */}
+                    <div className="contenido-proyecto-practica">
+                        <h3>{t("practica-piedra-papel")}</h3>
+                        <p>{t("piedra-papel-descripcion")}</p>
+                        <ul>
+                            <li className="java-icono"><IoLogoJavascript title={t("icon.js")} /></li>
+                            <li className="html-icono"><FaHtml5 title={t("icon.html")} /></li>
+                            <li className="css-icono"><DiCss3 title={t("icon.css")} /></li>
+                        </ul>
+                        <div className="linea-botones-practica">
+                            <a href="https://yeremaia.github.io/Juego-piedra-papel-y-tijera/" target="_blank" className="ejecutar-codigo"><FaCaretRight />{t("boton.ver-demo")}</a>
+                            <a href="https://github.com/Yeremaia/Juego-piedra-papel-y-tijera.git" target="_blank" className="ver-codigo"><GrCode />{t("boton.ver-code")}</a>
+                        </div>
+                    </div>
+                    {/* Segundo proyecto de practica */}
                     <div className="contenido-proyecto-practica">
                         <h3>{t("practica.calculadora")}</h3>
                         <p>{t("calculadora.descripcion")}</p>
@@ -268,6 +283,7 @@ function Inicio() {
                             <a href="https://github.com/Yeremaia/Calculadora.git" target="_blank" className="ver-codigo"><GrCode />{t("boton.ver-code")}</a>
                         </div>
                     </div>
+                    {/* Tercer proyecto de practica */}
                     <div className="contenido-proyecto-practica">
                         <h3>{t("practica.contador")}</h3>
                         <p>{t("contador.descripcion")}</p>
@@ -282,6 +298,7 @@ function Inicio() {
                             <a href="https://github.com/Yeremaia/contador-de-clicks.git" target="_blank"  className="ver-codigo"><GrCode /> {t("boton.ver-code")}</a>
                         </div>
                     </div>
+                    {/* Cuarto proyecto de practica */}
                     <div className="contenido-proyecto-practica">
                         <h3>{t("practica.sitio")}</h3>
                         <p>{t("sitio.descripcion")}</p>

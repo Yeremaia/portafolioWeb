@@ -31,6 +31,8 @@
   "contador.descripcion": "Compteur de clics basique développé avec React qui incrémente la valeur à chaque fois que l’utilisateur appuie sur un bouton.",
   "practica.sitio": "Site web simple",
   "sitio.descripcion": "Site web simple utilisant HTML et CSS Grid",
+  "practica-piedra-papel": "Pierre, feuille, ciseaux",
+  "piedra-papel-descripcion": "Site web sous forme de jeu pierre, feuille, ciseaux contre un bot, incluant la connexion et la création de compte.",
 
   "title.formacion": "Formation académique et certifications",
   "formacion.curso-1": "Programmation de sites web – 2023",
