@@ -1,5 +1,5 @@
 // React
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 import Bloggox from "./bloggox";
@@ -58,6 +58,7 @@ function Inicio() {
     const [fade, setFade] = useState(true);
     const [indiceCertificado, setIndiceCertificado] = useState(0);
     const certificadosPorVista = 2;
+    const footerRef = useRef(null);
 
     const cambiarImagen = (imagen) => {
         if (imagen === imagenActual) return; // devolver nada si ya esta puesta
@@ -154,11 +155,8 @@ function Inicio() {
 
 
     // SCROLL SUAVE
-    const irASeccion = (id) => {
-        const elemento = document.getElementById(id);
-        if (elemento) {
-        elemento.scrollIntoView({ behavior: "smooth" });
-        }
+    const irASeccion = () => {
+        footerRef.current?.scrollIntoView({ behavior: "smooth" });
     };
 
     return (
@@ -194,7 +192,7 @@ function Inicio() {
                         </ul>
                         <div className="boton-curriculum">
                             <a href="https://drive.google.com/file/d/1VKbdFF_6kFx7RgXUG8iZLcC83NbPs5FG/view?usp=sharing" target="_blank" id="verCurriculum"><IoDocumentTextSharp /> {t("main.ver-cv")}</a>
-                            <button id="contactame" onClick={() => irASeccion("ir-contacto")}><MdEmail /> {t("main.contactame")}</button>
+                            <button id="contactame" onClick={irASeccion}><MdEmail /> {t("main.contactame")}</button>
                         </div>
                     </div>
                 </div>
@@ -362,7 +360,7 @@ function Inicio() {
                     ))}
                     </div>
 
-                <footer id="ir-contacto">
+                <footer ref={footerRef} id="ir-contacto">
                     <h2>{t("title.footer")} <FaPhoneAlt /></h2>
                     <p>{t("footer.descripcion")}</p>
                     <ul>
