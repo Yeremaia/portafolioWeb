@@ -277,7 +277,6 @@ header {
 }
 
 .lado-derecho-arriba p {
-  /*  */
   font-size: 16px;
   margin: 6px 5px;
 }
@@ -338,8 +337,11 @@ header {
 
 #verCurriculum{
   background-color: #4b8a58;
+  font-size: 16px;
   color: #ffffff;
   border: none;
+  display: flex;
+  align-items: center;
 }
 
 #verCurriculum:hover {
@@ -535,8 +537,9 @@ h2 svg {
 }
 
 .ejecutar-codigo {
-  background-color: #17832d;
+  background-color: #4b8a58;
   color: white;
+  align-items: center;
 }
 
 .ejecutar-codigo:hover {
@@ -1023,19 +1026,21 @@ footer ul li a svg {
   }
 
   .menu-contenido li a {
-    padding: 10px 8px;
+    padding: 8px 6px;
     font-size: 12px;
   }
 
   .menu-contenido li button {
     padding: 8px 8px;
     font-size: 12px;
+    width: auto;
   }
 
   #boton-idioma button {
     display: flex;
     align-content: center;
     justify-content: center;
+    padding: 6.5px 6px;
   }
 
 }
@@ -1130,7 +1135,7 @@ footer ul li a svg {
 
   .ejecutar-codigo {
     margin-top: 7px;
-    height: 31px;
+    height: 28px;
     margin-right: 20px;
   }
 
@@ -1140,9 +1145,15 @@ footer ul li a svg {
   }
 }
 
+/* Certificado movil */
 @media (max-width: 768px) {
   .titulo-certificado-movil {
     font-size: 20px;
+    display: inline-flexbox;
+  }
+
+  .titulo-certificado-movil svg {
+    margin-left: 2px;
   }
 
   .conjunto-formacion {
@@ -1150,14 +1161,44 @@ footer ul li a svg {
     align-items: center;
   }
 
+  .conjunto-formacion img {
+    margin-bottom: 9px;
+  }
+
+  .tipo-carrera {
+    margin-bottom: 9px;
+  }
+
+  .curso-enfocado {
+    margin-bottom: 15px;
+  }
+
+  .curso-certificado {
+    margin: 11px 0;
+  }
+
   .caja-certificado {
     width: 90%;
+    height: auto;
     margin-bottom: 15px;
+  }
+
+  .caja-certificado a {
+    margin-bottom: 10px;
   }
 
   .btn-slider {
     display: none;
   }
+
+  .contenido-proyectos-destacados {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    justify-content: space-between;
+  }
+
+  
 }
 
 @media (max-width: 480px) {
