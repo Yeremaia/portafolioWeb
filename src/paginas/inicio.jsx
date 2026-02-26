@@ -78,7 +78,7 @@ function Inicio() {
             setFade(false);
 
             setTimeout(() => {
-                setImagenActual((prev) => (prev === PerfilFoto ? PerfilFotoCompleto : PerfilFoto));
+                setImagenActual((prev) => (prev === PerfilFoto ?  PerfilFoto : PerfilFotoCompleto));
                 setFade(true);
             }, 300);
         }, 9000);
