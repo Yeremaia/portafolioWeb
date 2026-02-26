@@ -94,7 +94,7 @@ function Inicio() {
         curso: t("formacion.curso-1"),
         tipo: t("formacion.tipo-1"),
         descripcion: t("formacion.descripcion-1"),
-        link: "#"
+        link: "https://drive.google.com/file/d/1WmJlw-fvne_q5kAZFf5m4KNBHpv6XZzv/view?usp=sharing"
     },
     {
         logo: LogoInfotep,
@@ -102,7 +102,7 @@ function Inicio() {
         curso: t("formacion.curso-2"),
         tipo: t("formacion.tipo-1"),
         descripcion: t("formacion.descripcion-2"),
-        link: "#"
+        link: "https://drive.google.com/file/d/1lIUOk3gBbAWtm06ceN7jQbVAHnpjtEYR/view?usp=sharing"
     },
     {
         logo: LogoCincinnatus,
@@ -110,7 +110,7 @@ function Inicio() {
         curso: t("formacion.curso-3"),
         tipo: t("formacion.tipo-1"),
         descripcion: t("formacion.descripcion-3"),
-        link: "#"
+        link: "https://drive.google.com/file/d/10XG5PteePRkYSeUVbMbOO2wpu3Si_2fL/view?usp=sharing"
     },
     {
         logo: LogoCincinnatus,
@@ -118,7 +118,7 @@ function Inicio() {
         curso: t("formacion.curso-4"),
         tipo: t("formacion.tipo-1"),
         descripcion: t("formacion.descripcion-4"),
-        link: "#"
+        link: "https://drive.google.com/file/d/1cQzJ-rSz1pWlEDO01Hwh2DFL8DGpzJvB/view?usp=sharing"
     },
     {
         logo: LogoCincinnatus,
