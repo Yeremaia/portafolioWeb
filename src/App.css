@@ -245,7 +245,7 @@ header {
 
 .lado-izquierdo-arriba img {
   height: 240px;
-  width: 240px;
+  width: 200px;
   margin-bottom: 10px;
   box-shadow: 4px 4px 4px var(--light-descripcion);
 }
@@ -318,6 +318,17 @@ header {
 #contactame {
   margin-left: 10px;
   background-color: #ccc;
+  border: none;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#contactame svg {
+  margin-right: 5px;
 }
 
 /* MODIFICAR BOTON DE CONTACTO */

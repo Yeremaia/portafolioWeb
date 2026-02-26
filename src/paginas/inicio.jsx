@@ -43,8 +43,8 @@ import { FaAngleLeft } from "react-icons/fa";
 import LogoInfotep from "../imagen/infotep-logo.jpg"
 import LogoCincinnatus from "../imagen/logo-cic.png"
 import LogoTalentoDigital from "../imagen/logo-talento-digital.png"
-import A1 from "../imagen/a.jpg"
-import A2 from "../imagen/a2.jpeg"
+import PerfilFoto from "../imagen/foto-perfil/foto-profesional.jpg"
+import PerfilFotoCompleto from "../imagen/foto-perfil/foto-completo.jpeg"
 import BloggoxImage from "../imagen/bloggox/login.png"
 import SkinGardenImage from "../imagen/SkinGarden/login.png"
 import ColegioVermillion from "../imagen/colegioVermillion/inicio.png"
@@ -54,7 +54,7 @@ import { useTranslation } from "react-i18next";
 
 function Inicio() {
     const { t } = useTranslation();
-    const [imagenActual, setImagenActual] = useState(A1);
+    const [imagenActual, setImagenActual] = useState(PerfilFoto);
     const [fade, setFade] = useState(true);
     const [indiceCertificado, setIndiceCertificado] = useState(0);
     const certificadosPorVista = 2;
@@ -78,7 +78,7 @@ function Inicio() {
             setFade(false);
 
             setTimeout(() => {
-                setImagenActual((prev) => (prev === A1 ? A2 : A1));
+                setImagenActual((prev) => (prev === PerfilFoto ? PerfilFotoCompleto : PerfilFoto));
                 setFade(true);
             }, 300);
         }, 9000);
@@ -172,14 +172,14 @@ function Inicio() {
                         <div className="botones-imagenes">
                             <button
                                 title="Imagen anterior"
-                                className={imagenActual === A1 ? "activo" : ""}
-                                onClick={() => cambiarImagen(A1)}
+                                className={imagenActual === PerfilFoto ? "activo" : ""}
+                                onClick={() => cambiarImagen(PerfilFoto)}
                             ></button>
 
                             <button
                                 title="Imagen siguiente"
-                                className={imagenActual === A2 ? "activo" : ""}
-                                onClick={() => cambiarImagen(A2)}
+                                className={imagenActual === PerfilFotoCompleto ? "activo" : ""}
+                                onClick={() => cambiarImagen(PerfilFotoCompleto)}
                             ></button>
                         </div>
                     </div>
