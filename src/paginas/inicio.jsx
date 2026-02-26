@@ -191,7 +191,7 @@ function Inicio() {
                             <li><FaGraduationCap />{t("main.buscar-estudios")}</li>
                         </ul>
                         <div className="boton-curriculum">
-                            <a href="https://drive.google.com/file/d/1VKbdFF_6kFx7RgXUG8iZLcC83NbPs5FG/view?usp=sharing" target="_blank" id="verCurriculum"><IoDocumentTextSharp /> {t("main.ver-cv")}</a>
+                            <a href="https://drive.google.com/file/d/1JRsoVxrmXFPWciIx2XCSwKIO_bEy7fNP/view?usp=sharing" target="_blank" id="verCurriculum"><IoDocumentTextSharp /> {t("main.ver-cv")}</a>
                             <button id="contactame" onClick={irASeccion}><MdEmail /> {t("main.contactame")}</button>
                         </div>
                     </div>
