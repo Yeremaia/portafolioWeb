@@ -53,6 +53,10 @@
   "formacion.en-proceso": "(En cours)",
   "formacion.descripcion-5": "Développement de logiciels, technologies web et gestion de projets.",
 
+  "formacion.curso-7": "Ingénierie des systèmes informatiques",
+  "formacion.tipo-3": "Licence",
+  "formacion.descripcion-7": "Ingénierie logicielle, administration de bases de données et développement de solutions technologiques évolutives.",
+
   "formacion.tipo-2": "Programme de formation",
   "formacion.descripcion-6": "Formation Full Stack : React, Node.js, Express et APIs REST.",
 

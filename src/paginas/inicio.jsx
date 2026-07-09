@@ -44,6 +44,7 @@ import LogoInfotep from "../imagen/infotep-logo.jpg"
 import LogoCincinnatus from "../imagen/logo-cic.png"
 import LogoTalentoDigital from "../imagen/logo-talento-digital.png"
 import PerfilFoto from "../imagen/foto-perfil/foto-profesional.jpg"
+import LogoUtel from "../imagen/Utel_logo.png"
 import PerfilFotoCompleto from "../imagen/foto-perfil/foto-completo.jpeg"
 import BloggoxImage from "../imagen/bloggox/login.png"
 import SkinGardenImage from "../imagen/SkinGarden/login.png"
@@ -138,7 +139,19 @@ function Inicio() {
         tipo: t("formacion.tipo-2"),
         descripcion: t("formacion.descripcion-6"),
         link: "https://drive.google.com/file/d/1wVkirKp-bbA17idvl6FODUgY3HOtYuhi/view?usp=sharing"
+    },
+    {
+        logo: LogoUtel,
+        titulo: "Universidad UTEL",
+        curso: t("formacion.curso-7"),
+        tipo: (
+            <>
+                {t("formacion.tipo-3")} <span className="en-proceso">{t("formacion.en-proceso")}</span>
+            </>
+        ),
+        descripcion: t("formacion.descripcion-7")
     }
+    
     ];
 
     const siguiente = () => {

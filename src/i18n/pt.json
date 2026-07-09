@@ -53,6 +53,10 @@
   "formacion.en-proceso": "(Em andamento)",
   "formacion.descripcion-5": "Desenvolvimento de software, tecnologias web e gestão de projetos.",
 
+  "formacion.curso-7": "Engenharia de Sistemas Computacionais",
+  "formacion.tipo-3": "Bacharelado",
+  "formacion.descripcion-7": "Engenharia de software, administração de bancos de dados e desenvolvimento de soluções tecnológicas escaláveis.",
+
   "formacion.tipo-2": "Programa de formação",
   "formacion.descripcion-6": "Formação Full Stack: React, Node.js, Express e APIs REST.",
 

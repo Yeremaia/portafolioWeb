@@ -54,6 +54,10 @@
   "formacion.en-proceso": "(In progress)",
   "formacion.descripcion-5": "Software development, web technologies, and project management.",
 
+  "formacion.curso-7": "Computer Systems Engineering",
+  "formacion.tipo-3": "Bachelor's Degree",
+  "formacion.descripcion-7": "Software engineering, database administration, and development of scalable technological solutions.",
+
   "formacion.tipo-2": "Training program",
   "formacion.descripcion-6": "Full Stack training: React, Node.js, Express, and REST APIs.",
 
